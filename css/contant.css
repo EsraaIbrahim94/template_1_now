@@ -1,0 +1,70 @@
+/* Contant Section */
+.form-content{
+    margin-left: 17%;
+    margin-top: 20px;
+}
+
+.form-name-email input, .subject input, 
+.send-message, .textarea{
+    border: 0;
+    font-size: initial;
+    font-family: initial;
+    border-radius: 5px;
+    padding-left: 20px;   
+} 
+
+.form-name-email input,
+.subject input, 
+.textarea{
+    background-color: #f4f4f4;
+    opacity: 0.5;   
+}
+
+.form-name-email input{
+    display: inline-block;
+    width: 360px;
+    height: 40px;  
+    margin: 0 5px;
+}
+
+.subject input{
+    width: 735px;
+    height: 40px;  
+    margin: 20px 5px;
+   
+}
+
+.textarea{
+    width: 735px;
+    height: 70px;
+    margin: 0 5px;
+    padding-top: 3px;
+}
+
+.send-message{
+    margin-left: 30%;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    padding-left: 0;
+    background-color: var(--mainColor);
+    border-radius: 3px;
+    opacity: 1;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.form-name-email input:focus{
+    border-bottom: 2px solid #2567ec
+}
+
+.subject input:focus{
+    border-bottom: 2px solid #2567ec
+}
+
+.textarea:focus{
+    border-bottom: 2px solid #2567ec;
+}
+
