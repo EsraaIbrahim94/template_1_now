@@ -82,8 +82,8 @@
     visibility: visible;
 }
 
-.dropdown-menu a{
-    color: #fff;
+.dropdown-menu > a{
+    color: #000;
     display: block;
     padding: 10px;
 }
